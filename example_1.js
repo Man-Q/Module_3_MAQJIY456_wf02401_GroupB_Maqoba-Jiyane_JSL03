@@ -30,3 +30,21 @@ function cookSteak(steakWeight, desiredDoneness) {
   const result = cookSteak(16, 63); // Cook a 16 oz steak to medium-rare (63°C)
   console.log(result);
   
+  /*
+    Imperative Programming Style:
+
+    This code explicitly defines each step of the cooking process (preheating the grill, seasoning the steak, 
+      cooking to the desired doneness, and serving the steak) using specific instructions and control flow constructs 
+      (e.g., if statements, while loop).
+    It provides detailed instructions on how each step should be carried out, such as setting grill temperature, 
+      applying seasoning, and iterating over each cooking step.
+
+    **********Mention any specific code structures or patterns that align with the chosen programming paradigm.**********
+
+    Sequential Execution: The code follows a sequence of steps, where each step (Preheat grill, Season steak, Cook steak 
+      until desired doneness, Serve steak) is explicitly defined and executed in order.
+    Mutable State: Variables like grillTemperature, seasoning, and steakTemperature are updated throughout the cooking 
+      process to track the state changes.
+    Control Flow Constructs: Imperative constructs like if statements and while loop are used to control the flow of 
+      execution based on conditions and iteration.
+  */

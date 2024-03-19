@@ -33,3 +33,25 @@ function cookSteak(steakWeight, desiredDoneness) {
   
   cookSteak(16, 63); // Cook a 16 oz steak to medium-rare (63°C)
   
+
+  /*
+    Declarative Programming Style:
+
+    This code represents the cooking process using a higher-level abstraction: an array of objects (cookingProcess).
+    Each object in the cookingProcess array describes an action to be taken during the cooking process using descriptive 
+      properties (action, temperature, seasoning, desiredDoneness).
+    It does not explicitly specify how each action should be performed; instead, it focuses on defining the overall 
+      cooking process and its components in a more abstract and descriptive manner.
+
+    **********Mention any specific code structures or patterns that align with the chosen programming paradigm.**********
+
+    Data Abstraction: The cooking process is abstracted into a data structure (cookingProcess) that represents the 
+      sequence of steps to be executed. Each step is described using properties like action, temperature, seasoning, and 
+      desiredDoneness.
+    Higher-Level Abstractions: Instead of low-level control flow constructs, the code utilizes higher-level abstractions 
+      like array iteration (for...of loop) and object properties to describe the cooking process without specifying how 
+      each action should be performed.
+    Declarative Constructs: The code focuses on what needs to be done (action) rather than how it should be done, 
+      aligning with the declarative paradigm's principle of expressing the logic of computation without specifying the 
+      control flow.
+  */
